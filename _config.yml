@@ -1,0 +1,153 @@
+
+# The name of your website.
+name: Flávio André
+
+description:
+
+  # Description of my site. This will show up in google.
+  meta: "Flávio André - Arquiteto de Software, Full stack developer. Now, say my name!"
+
+  # Description of your site. This will show up on the front page.
+  subtitle: "Olá! Meu nome é Flávio André, Arquiteto de Software, Full stack developer e metido a maker. <a href=\"https://github.com/FlavioAndre\">&lt;/&gt; eu no GitHub</a>"
+  # subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; eu no Github</a>.
+
+author:
+  name: Flávio André
+
+  # Necessary for contact page
+  email: flavioandre.fla@gmail.com
+
+  # Optional text (html) to display after author name. Leave empty if you don't
+  # want it.
+  info: "Apaixonado por desenvolvimento e tecnologia, comecei aos 14 anos a estudar programação e desde então não parei, adoro desafios e nas horas vagas busco desafios em Java, Javascript e C#."
+
+url: http:/flavioandre.github.io
+# baseurl: "/"
+
+# language attribute in <html> element.
+lang: pt-BR
+
+# FROM THIS POINT ON EVERYTHING IS OPTIONAL
+
+##############
+# APPEREANCE #
+##############
+
+# If you want to show the subtitle anywhere else than the front page, use
+# {% include subtitle.html %} to include it anywhere you want.
+show-subtitle: true
+display-social-icons: true
+
+footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> desenvolvido por <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+
+# Preferably 64px in height. Leave empty = disable.
+logo-image: # /img/logo.png
+
+# Toolbar color for Chrome on Android.
+theme-color-attr: "#00F0FF"
+
+# Color of Microsoft live Tile.
+ms-tile-color: "#00F0FF"
+
+# Color used throughout the theme. Format: R, G, B.
+theme-color: 0, 240, 255 # 226, 226, 226 # Original: 0, 240, 255
+
+# Text color used throughout the theme. Format: R, G, B.
+text-color: 0, 0, 0 # Original: 0, 0, 0
+
+# Background color used throughout the theme. Format: R, G, B.
+# Note: if you change the background color AND you use cover images, you should
+#       also change the CSS gradient in "_includes\gradient.css" to match the
+#       background color. Edit and copy it from here:
+#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
+background-color: 255, 255, 255 # Original: 255, 255, 255
+
+display-author-post-page: false
+display-author-front-page: false
+display-post-description-on-home: true
+
+# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+date_format: "%d/%m/%Y"
+
+# Minimal screen-width after which the navigation will change position from
+# vertical to horizontal.
+nav-breaking-point: 520px
+
+# Number of posts on each page.
+paginate: 3
+
+# Display links for the previous and next post on post pages.
+display-next-prev-post: false
+
+# Leave empty if you don't want comments on post pages.
+disqus-shortname: flavioandre
+
+
+################
+# SOCIAL ICONS #
+################
+
+# Use a complete url here, including http:// and such. Requiring just usernames
+# has been considered, but this is way more customizable.
+twitter: 
+youtube:
+instagram: 
+tumblr:
+facebook:
+google-plus:
+reddit:
+soundcloud:
+medium:
+linkedin: https://www.linkedin.com/in/flavioandre/
+github: https://github.com/FlavioAndre
+behance:
+codepen:
+dribbble:
+trello:
+stack-overflow:
+bitcoin:
+paypal:
+
+
+#####################
+# CUSTOMIZABLE TEXT #
+#####################
+
+# Useful for translating into other languages.
+
+var_on_the_web: Por aí
+var_read: Ler # Text after each post summary on the homepage.
+var_newer: Novos
+var_older: Antigos
+var_next_post: Próxima postagem
+var_previous_post: Postagem anterior
+var_less_than_a_minute_read: Menos de um minuto de leitura
+var_min_read: min de leitura # Text after reading time. Example: 5 min read.
+var_post_by: Postado por
+var_guest_post_by: Postado por
+var_your_name: Seu nome
+var_your_email: Seu email
+var_your_message: Sua mensagem
+var_send_message: Enviar
+
+
+##################
+# BUILD SETTINGS #
+##################
+
+# You don't have to change these.
+
+exclude: [vendor]
+highlighter: pygments
+kramdown:
+  input: GFM
+paginate_path: "/page-:num/"
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: "<!--more-->"
