@@ -1,1 +1,1 @@
-My personal blog is coming. :)
+Personal page build with theme 
