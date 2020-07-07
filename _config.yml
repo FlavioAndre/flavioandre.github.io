@@ -136,7 +136,6 @@ var_send_message: Enviar
 ##################
 
 # You don't have to change these.
-
 exclude: [vendor]
 highlighter: pygments
 kramdown:
