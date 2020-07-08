@@ -38,7 +38,7 @@ lang: pt-BR
 show-subtitle: true
 display-social-icons: true
 
-footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> desenvolvido por <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href="https://stijnvc.github.io/holo-alfa/">Holo Alfa</a> desenvolvido por <a href="https://stijnvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
@@ -136,7 +136,6 @@ var_send_message: Enviar
 ##################
 
 # You don't have to change these.
-
 exclude: [vendor]
 highlighter: pygments
 kramdown:
