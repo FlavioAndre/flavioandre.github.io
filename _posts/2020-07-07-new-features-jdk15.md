@@ -11,7 +11,7 @@ The new features in Java [JDK 15](https://openjdk.java.net/projects/jdk/15/) nex
 
 <!--more-->
 
-![java]({{ site.url }}/img/java.jpg)
+![Java]({{ site.url }}/img/java.jpg)
 
 - A preview of [sealed classes](https://openjdk.java.net/jeps/360). Along with interfaces, sealed classes restrict which other classes or interfaces may extend or implement them.  - A second incubator of a [foreign-memory access API](https://openjdk.java.net/jeps/383).
  - Cryptographic signatures based on the [Edwards-Curve Digital Signature Algorithm (EdDSA)](https://openjdk.java.net/jeps/339).
