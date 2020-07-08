@@ -1,17 +1,17 @@
 ---
 
-title:  JDK 15 - The new features in Java JDK 15
+title:  JDK 15 - The new features in Java Open JDK 15
 
-description:  Let's see what's new in java version 15, feature text blocks, garbage collectors, hidden classes.
+description:  Let's see what's new in java open jdk version 15, feature text blocks, garbage collectors, hidden classes.
 
 og-image:  java.jpg
 ---
 
-The new features in Java [JDK 15](https://openjdk.java.net/projects/jdk/15/) next version of Java SE on June 11:
+The new features in Java [Open JDK 15](https://openjdk.java.net/projects/jdk/15/) next version of Java SE on June 11:
 
 <!--more-->
 
-![Java]({{ site.url }}/img/java.jpg)
+![Java]({{ site.url }}/img/java.png)
 
 - A preview of [sealed classes](https://openjdk.java.net/jeps/360). Along with interfaces, sealed classes restrict which other classes or interfaces may extend or implement them.  - A second incubator of a [foreign-memory access API](https://openjdk.java.net/jeps/383).
  - Cryptographic signatures based on the [Edwards-Curve Digital Signature Algorithm (EdDSA)](https://openjdk.java.net/jeps/339).
