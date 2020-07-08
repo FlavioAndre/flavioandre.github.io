@@ -7,7 +7,7 @@ description:  Let's see what's new in java open jdk version 15, feature text blo
 og-image:  java.jpg
 ---
 
-The new features in Java [Open JDK 15](https://openjdk.java.net/projects/jdk/15/) next version of Java SE on June 11:
+The new features in Java [Open JDK 15](https://openjdk.java.net/projects/jdk/15/), next version of Java SE on June 11:
 
 <!--more-->
 
